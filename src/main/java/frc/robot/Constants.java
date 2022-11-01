@@ -14,5 +14,5 @@ package frc.robot;
  */
 
 public final class Constants {
-   public static double kVoltageCompensation = 12.0; 
+   public static final double kVoltageCompensation = 12.0; 
 }
