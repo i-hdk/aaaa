@@ -23,7 +23,7 @@ public class SwerveModule{
         mRotorEncoder.configAbsoluteSensorRange(AbsoluteSensorRange.Signed_PlusMinus180);	
         mRotorEncoder.configSensorDirection(false);
         mRotorEncoder.configSensorInitializationStrategy(SensorInitializationStrategy.BootToAbsolutePosition);
-        mRotor.setInverted(false); 
+        mRotor.setInverted(TalonFXInvertType.Clockwise); 
         mRotor.configVoltageCompSaturation(Constants.kVoltageCompensation);
         mThrottle.configVoltageCompSaturation(Constants.kVoltageCompensation);
         mRotor.enableVoltageCompensation(true);
