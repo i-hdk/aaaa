@@ -1,0 +1,1 @@
+i think pid is a loop thingy to correct driving or any motor turning to make it more accurate.
