@@ -44,4 +44,12 @@ public class SwerveModule{
         mRotor.setNeutralMode(NeutralMode.Brake);
         mThrottle.setNeutralMode(NeutralMode.Brake);
     }
+
+/**
+ * Manually jogs rotor motor
+ * @param percent speed [-1,1]
+ */
+    public void jogRotor(double percent){
+
+    }
 }
